@@ -241,7 +241,7 @@ const sp = search ? products.filter((product) => {
 
               <!-- Image -->
               <a
-                href={`/shop/${product.id}`}
+                href={`${import.meta.env.BASE_URL}/shop/${product.id}`}
                 class="relative block aspect-square overflow-hidden rounded-xl bg-gray-100"
               >
 
@@ -290,7 +290,7 @@ const sp = search ? products.filter((product) => {
 
                 <h2 class="mt-1 truncate text-sm font-medium text-gray-900">
                   <a
-                    href={`/shop/${product.id}`}
+                    href={`${import.meta.env.BASE_URL}/shop/${product.id}`}
                     class="transition hover:text-indigo-600"
                   >
                     {product.name}
