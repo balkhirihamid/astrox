@@ -4,7 +4,7 @@ import Navbar from '../ui/navbar.astro';
 import Footer from '../ui/footer.astro';
 import { products } from "../data/products";
 
-export const prerender = false;
+//export const prerender = false;
 const search = Astro.url.searchParams.get("search")?.trim().toLowerCase() || "";
 
 const sp = search ? products.filter((product) => {
