@@ -6,87 +6,84 @@ export const info = {
 export const products = [
   {
     id: 1,
-    name: "Premium Cotton T-Shirt",
-    slug: "premium-cotton-t-shirt",
-    category: "Clothing",
-    price: 39.99,
-    oldPrice: 49.99,
+    name: "4MP Outdoor IP Security Camera",
+    slug: "4mp-outdoor-ip-security-camera",
+    category: "Camera",
+    price: 89.99,
+    oldPrice: 109.99,
     currency: "USD",
 
     rating: 4.8,
-    reviews: 124,
+    reviews: 142,
 
-    stock: 18,
-    sku: "TSH-001",
+    stock: 24,
+    sku: "CAM-001",
 
     description:
-      "A premium cotton t-shirt designed for everyday comfort. Made from soft, breathable cotton with a modern fit that works perfectly for casual and everyday outfits.",
+      "A professional 4MP outdoor IP security camera designed for reliable day and night surveillance. It features high-resolution video, infrared night vision and weather-resistant construction for residential and commercial installations.",
 
     shortDescription:
-      "Premium breathable cotton t-shirt with a comfortable modern fit.",
+      "4MP outdoor IP camera with infrared night vision and weather-resistant design.",
 
     features: [
-      "100% premium cotton",
-      "Soft and breathable fabric",
-      "Modern regular fit",
-      "Machine washable",
-      "Lightweight construction",
-      "Available in multiple colors",
+      "4MP high-resolution video",
+      "Infrared night vision",
+      "Outdoor weather-resistant housing",
+      "Wide viewing angle",
+      "Motion detection",
+      "Network connectivity",
     ],
 
     colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
       {
         name: "White",
         value: "#ffffff",
       },
       {
-        name: "Gray",
-        value: "#9ca3af",
+        name: "Black",
+        value: "#111827",
       },
     ],
 
-    sizes: ["S", "M", "L", "XL", "XXL"],
+    sizes: ["Standard"],
 
     images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200",
-      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=1200",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=1200",
+      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200",
+      "https://images.unsplash.com/photo-1516321165247-4aa89a48be28?w=1200",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200",
     ],
 
-    tags: ["t-shirt", "cotton", "clothing", "casual"],
+    tags: ["camera", "ip-camera", "security", "surveillance", "outdoor"],
   },
 
   {
     id: 2,
-    name: "Classic Sneakers",
-    slug: "classic-sneakers",
-    category: "Shoes",
-    price: 89.99,
+    name: "8MP 4K PTZ Security Camera",
+    slug: "8mp-4k-ptz-security-camera",
+    category: "Camera",
+    price: 249.99,
+    oldPrice: 299.99,
     currency: "USD",
 
-    rating: 4.7,
-    reviews: 89,
+    rating: 4.9,
+    reviews: 87,
 
     stock: 12,
-    sku: "SNK-002",
+    sku: "CAM-002",
 
     description:
-      "Classic everyday sneakers combining timeless design with lightweight comfort. Perfect for casual outfits, walking and everyday use.",
+      "A high-performance 8MP 4K PTZ security camera designed for advanced surveillance applications. The motorized pan, tilt and zoom system provides flexible monitoring of large areas while maintaining detailed image quality.",
 
     shortDescription:
-      "Classic lightweight sneakers designed for everyday comfort.",
+      "8MP 4K PTZ camera with motorized pan, tilt and zoom for large-area surveillance.",
 
     features: [
-      "Lightweight construction",
-      "Comfortable cushioned sole",
-      "Durable upper material",
-      "Breathable interior",
-      "Classic everyday design",
-      "Non-slip outsole",
+      "8MP 4K ultra HD video",
+      "Motorized pan and tilt",
+      "Optical zoom",
+      "Infrared night vision",
+      "Motion tracking",
+      "Remote network access",
     ],
 
     colors: [
@@ -98,50 +95,51 @@ export const products = [
         name: "Black",
         value: "#111827",
       },
-      {
-        name: "Blue",
-        value: "#2563eb",
-      },
     ],
 
-    sizes: ["39", "40", "41", "42", "43", "44", "45"],
+    sizes: ["Standard"],
 
     images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1200",
-      "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=1200",
+      "https://images.unsplash.com/photo-1524143986875-3b098d78b363?w=1200",
+      "https://images.unsplash.com/photo-1563013544-824ae1b704d3?w=1200",
+      "https://images.unsplash.com/photo-1557597774-9d273605dfa9?w=1200",
     ],
 
-    tags: ["shoes", "sneakers", "casual", "footwear"],
+    tags: ["camera", "ptz", "4k", "security", "surveillance"],
   },
+
+  // =========================
+  // DVR
+  // =========================
 
   {
     id: 3,
-    name: "Minimal Backpack",
-    slug: "minimal-backpack",
-    category: "Accessories",
-    price: 59.99,
+    name: "8 Channel Full HD DVR",
+    slug: "8-channel-full-hd-dvr",
+    category: "DVR",
+    price: 119.99,
+    oldPrice: 139.99,
     currency: "USD",
 
-    rating: 4.6,
-    reviews: 64,
+    rating: 4.7,
+    reviews: 96,
 
-    stock: 25,
-    sku: "BAG-003",
+    stock: 18,
+    sku: "DVR-001",
 
     description:
-      "A minimal and practical backpack designed for work, travel and everyday use. Its clean design provides plenty of space while maintaining a lightweight profile.",
+      "An 8-channel digital video recorder designed for professional CCTV surveillance systems. It supports multiple camera inputs, local recording, playback and remote monitoring through a network connection.",
 
     shortDescription:
-      "Minimal water-resistant backpack for work, travel and everyday use.",
+      "8-channel DVR for reliable CCTV recording, playback and remote monitoring.",
 
     features: [
-      "Water-resistant material",
-      "Dedicated laptop compartment",
-      "Multiple storage pockets",
-      "Adjustable shoulder straps",
-      "Lightweight construction",
-      "Minimal modern design",
+      "8 camera channels",
+      "Full HD recording",
+      "H.265 video compression",
+      "Motion detection recording",
+      "Remote mobile monitoring",
+      "USB backup support",
     ],
 
     colors: [
@@ -149,110 +147,47 @@ export const products = [
         name: "Black",
         value: "#111827",
       },
-      {
-        name: "Gray",
-        value: "#6b7280",
-      },
-      {
-        name: "Green",
-        value: "#166534",
-      },
     ],
 
-    sizes: ["One Size"],
+    sizes: ["8 Channel"],
 
     images: [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200",
-      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=1200",
-      "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=1200",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+      "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1200",
     ],
 
-    tags: ["backpack", "bag", "travel", "accessories"],
+    tags: ["dvr", "cctv", "recorder", "security", "surveillance"],
   },
 
   {
     id: 4,
-    name: "Classic Watch",
-    slug: "classic-watch",
-    category: "Accessories",
-    price: 129.99,
-    oldPrice: 159.99,
-    currency: "USD",
-
-    rating: 4.9,
-    reviews: 156,
-
-    stock: 9,
-    sku: "WAT-004",
-
-    description:
-      "A timeless classic watch featuring a clean dial, premium materials and an elegant design suitable for both formal and casual occasions.",
-
-    shortDescription:
-      "Elegant classic watch with a timeless design and premium finish.",
-
-    features: [
-      "Premium stainless steel case",
-      "Scratch-resistant glass",
-      "Adjustable metal strap",
-      "Water resistant",
-      "Quartz movement",
-      "Minimal classic dial",
-    ],
-
-    colors: [
-      {
-        name: "Silver",
-        value: "#d1d5db",
-      },
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Gold",
-        value: "#d4a017",
-      },
-    ],
-
-    sizes: ["One Size"],
-
-    images: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200",
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=1200",
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=1200",
-    ],
-
-    tags: ["watch", "accessories", "classic", "luxury"],
-  },
-
-  {
-    id: 5,
-    name: "Oversized Hoodie",
-    slug: "oversized-hoodie",
-    category: "Clothing",
-    price: 69.99,
+    name: "16 Channel 5MP Hybrid DVR",
+    slug: "16-channel-5mp-hybrid-dvr",
+    category: "DVR",
+    price: 219.99,
+    oldPrice: 259.99,
     currency: "USD",
 
     rating: 4.8,
-    reviews: 98,
+    reviews: 71,
 
-    stock: 21,
-    sku: "HOD-005",
+    stock: 10,
+    sku: "DVR-002",
 
     description:
-      "A comfortable oversized hoodie made from a soft fleece blend. Designed for a relaxed fit and perfect for casual everyday wear.",
+      "A 16-channel hybrid DVR designed for medium and large CCTV installations. It supports high-resolution recording, multiple camera technologies and remote access for convenient surveillance management.",
 
     shortDescription:
-      "Soft oversized hoodie with a relaxed fit for everyday comfort.",
+      "16-channel hybrid DVR supporting high-resolution CCTV recording and remote access.",
 
     features: [
-      "Soft fleece blend",
-      "Oversized relaxed fit",
-      "Adjustable drawstring hood",
-      "Kangaroo front pocket",
-      "Ribbed cuffs",
-      "Warm and comfortable",
+      "16 camera channels",
+      "Up to 5MP recording",
+      "Hybrid camera support",
+      "H.265 compression",
+      "Smart motion detection",
+      "Remote smartphone access",
     ],
 
     colors: [
@@ -260,58 +195,99 @@ export const products = [
         name: "Black",
         value: "#111827",
       },
-      {
-        name: "Cream",
-        value: "#f5f5dc",
-      },
-      {
-        name: "Gray",
-        value: "#9ca3af",
-      },
-      {
-        name: "Brown",
-        value: "#78350f",
-      },
     ],
 
-    sizes: ["S", "M", "L", "XL", "XXL"],
+    sizes: ["16 Channel"],
 
     images: [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1200",
-      "https://images.unsplash.com/photo-1578681994506-b8f463449011?w=1200",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=1200",
+      "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1200",
     ],
 
-    tags: ["hoodie", "clothing", "casual", "streetwear"],
+    tags: ["dvr", "hybrid-dvr", "cctv", "recorder", "security"],
+  },
+
+  // =========================
+  // NETWORK SWITCHES
+  // =========================
+
+  {
+    id: 5,
+    name: "8 Port Gigabit PoE Switch",
+    slug: "8-port-gigabit-poe-switch",
+    category: "Switch",
+    price: 79.99,
+    oldPrice: 99.99,
+    currency: "USD",
+
+    rating: 4.8,
+    reviews: 118,
+
+    stock: 32,
+    sku: "SWT-001",
+
+    description:
+      "An 8-port Gigabit PoE network switch designed for IP cameras, access points and other network devices. It combines data connectivity and power delivery in a compact and reliable solution.",
+
+    shortDescription:
+      "8-port Gigabit PoE switch for IP cameras and network devices.",
+
+    features: [
+      "8 Gigabit Ethernet ports",
+      "PoE power delivery",
+      "Plug and play installation",
+      "High-speed data transfer",
+      "LED status indicators",
+      "Compact metal housing",
+    ],
+
+    colors: [
+      {
+        name: "Black",
+        value: "#111827",
+      },
+    ],
+
+    sizes: ["8 Port"],
+
+    images: [
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+    ],
+
+    tags: ["switch", "poe", "gigabit", "network", "ethernet"],
   },
 
   {
     id: 6,
-    name: "Running Shoes",
-    slug: "running-shoes",
-    category: "Shoes",
-    price: 109.99,
+    name: "24 Port Gigabit Managed PoE Switch",
+    slug: "24-port-gigabit-managed-poe-switch",
+    category: "Switch",
+    price: 349.99,
+    oldPrice: 399.99,
     currency: "USD",
 
-    rating: 4.7,
-    reviews: 112,
+    rating: 4.9,
+    reviews: 63,
 
-    stock: 16,
-    sku: "RUN-006",
+    stock: 8,
+    sku: "SWT-002",
 
     description:
-      "Lightweight running shoes engineered for comfort and everyday performance. The cushioned sole provides excellent support during running, walking and training.",
+      "A professional 24-port managed Gigabit PoE switch designed for enterprise networks and large IP surveillance systems. It provides centralized network management, reliable PoE power delivery and high-speed connectivity.",
 
     shortDescription:
-      "Lightweight running shoes with responsive cushioning and excellent support.",
+      "24-port managed Gigabit PoE switch for enterprise networks and IP surveillance.",
 
     features: [
-      "Lightweight mesh upper",
-      "Responsive cushioning",
-      "Breathable construction",
-      "Flexible outsole",
-      "Shock absorption",
-      "Designed for running and training",
+      "24 Gigabit Ethernet ports",
+      "Managed network configuration",
+      "PoE power delivery",
+      "VLAN support",
+      "High-speed uplink ports",
+      "Rack-mountable metal chassis",
     ],
 
     colors: [
@@ -319,58 +295,51 @@ export const products = [
         name: "Black",
         value: "#111827",
       },
-      {
-        name: "White",
-        value: "#ffffff",
-      },
-      {
-        name: "Blue",
-        value: "#2563eb",
-      },
-      {
-        name: "Red",
-        value: "#dc2626",
-      },
     ],
 
-    sizes: ["39", "40", "41", "42", "43", "44", "45", "46"],
+    sizes: ["24 Port"],
 
     images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200",
-      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=1200",
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=1200",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
     ],
 
-    tags: ["running", "shoes", "sports", "training"],
+    tags: ["switch", "managed-switch", "poe", "gigabit", "network"],
   },
+
+  // =========================
+  // NVR
+  // =========================
 
   {
     id: 7,
-    name: "Leather Wallet",
-    slug: "leather-wallet",
-    category: "Accessories",
-    price: 44.99,
+    name: "8 Channel 4K Network Video Recorder",
+    slug: "8-channel-4k-network-video-recorder",
+    category: "NVR",
+    price: 179.99,
+    oldPrice: 209.99,
     currency: "USD",
 
     rating: 4.8,
-    reviews: 73,
+    reviews: 104,
 
-    stock: 30,
-    sku: "WAL-007",
+    stock: 15,
+    sku: "NVR-001",
 
     description:
-      "A compact leather wallet crafted for everyday use. Its slim profile provides enough space for cards, cash and essential documents without unnecessary bulk.",
+      "An 8-channel 4K network video recorder designed for IP surveillance systems. It provides centralized recording, playback and management of network cameras with support for high-resolution video.",
 
     shortDescription:
-      "Slim genuine leather wallet with a practical everyday design.",
+      "8-channel 4K NVR for IP camera recording and centralized surveillance management.",
 
     features: [
-      "Genuine leather",
-      "Slim compact profile",
-      "Multiple card slots",
-      "Cash compartment",
-      "Durable stitching",
-      "RFID protection",
+      "8 IP camera channels",
+      "4K video recording",
+      "H.265 video compression",
+      "Remote viewing",
+      "Motion detection",
+      "Hard drive recording support",
     ],
 
     colors: [
@@ -378,472 +347,172 @@ export const products = [
         name: "Black",
         value: "#111827",
       },
-      {
-        name: "Brown",
-        value: "#78350f",
-      },
-      {
-        name: "Tan",
-        value: "#a16207",
-      },
     ],
 
-    sizes: ["One Size"],
+    sizes: ["8 Channel"],
 
     images: [
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=1200",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
     ],
 
-    tags: ["wallet", "leather", "accessories", "cards"],
+    tags: ["nvr", "ip-camera", "4k", "recorder", "surveillance"],
   },
 
   {
     id: 8,
-    name: "Basic Sweatshirt",
-    slug: "basic-sweatshirt",
-    category: "Clothing",
-    price: 54.99,
-    currency: "USD",
-
-    rating: 4.5,
-    reviews: 58,
-
-    stock: 27,
-    sku: "SWT-008",
-
-    description: "A versatile basic sweatshirt made from a soft cotton blend. Its clean design makes it easy to combine with jeans, trousers or casual sportswear.",
-
-    shortDescription: "Soft cotton-blend sweatshirt with a clean and versatile design.",
-
-    features: [
-      "Soft cotton blend",
-      "Regular comfortable fit",
-      "Ribbed neckline",
-      "Ribbed cuffs",
-      "Durable construction",
-      "Easy to layer",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "White",
-        value: "#ffffff",
-      },
-      {
-        name: "Gray",
-        value: "#9ca3af",
-      },
-      {
-        name: "Navy",
-        value: "#1e3a8a",
-      },
-    ],
-
-    sizes: ["S", "M", "L", "XL", "XXL"],
-
-    images: [
-      "https://images.unsplash.com/photo-1578587018452-892bacefd3f2?w=1200", "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200",
-      "https://images.unsplash.com/photo-1515886657613-9f3515b0c78f?w=1200"],
-
-    tags: ["sweatshirt", "clothing", "casual", "basic"],
-  },
-
-  {
-    id: 1,
-    name: "Premium Cotton T-Shirt",
-    slug: "premium-cotton-t-shirt",
-    category: "Clothing",
-    price: 39.99,
-    oldPrice: 49.99,
-    currency: "USD",
-
-    rating: 4.8,
-    reviews: 124,
-
-    stock: 18,
-    sku: "TSH-001",
-
-    description:
-      "A premium cotton t-shirt designed for everyday comfort. Made from soft, breathable cotton with a modern fit that works perfectly for casual and everyday outfits.",
-
-    shortDescription:
-      "Premium breathable cotton t-shirt with a comfortable modern fit.",
-
-    features: [
-      "100% premium cotton",
-      "Soft and breathable fabric",
-      "Modern regular fit",
-      "Machine washable",
-      "Lightweight construction",
-      "Available in multiple colors",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "White",
-        value: "#ffffff",
-      },
-      {
-        name: "Gray",
-        value: "#9ca3af",
-      },
-    ],
-
-    sizes: ["S", "M", "L", "XL", "XXL"],
-
-    images: [
-      "https://images.unsplash.com/photo-1521572163474-6864f9cf17ab?w=1200",
-      "https://images.unsplash.com/photo-1503341504253-dff4815485f1?w=1200",
-      "https://images.unsplash.com/photo-1562157873-818bc0726f68?w=1200",
-    ],
-
-    tags: ["t-shirt", "cotton", "clothing", "casual"],
-  },
-
-  {
-    id: 2,
-    name: "Classic Sneakers",
-    slug: "classic-sneakers",
-    category: "Shoes",
-    price: 89.99,
-    currency: "USD",
-
-    rating: 4.7,
-    reviews: 89,
-
-    stock: 12,
-    sku: "SNK-002",
-
-    description:
-      "Classic everyday sneakers combining timeless design with lightweight comfort. Perfect for casual outfits, walking and everyday use.",
-
-    shortDescription:
-      "Classic lightweight sneakers designed for everyday comfort.",
-
-    features: [
-      "Lightweight construction",
-      "Comfortable cushioned sole",
-      "Durable upper material",
-      "Breathable interior",
-      "Classic everyday design",
-      "Non-slip outsole",
-    ],
-
-    colors: [
-      {
-        name: "White",
-        value: "#ffffff",
-      },
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Blue",
-        value: "#2563eb",
-      },
-    ],
-
-    sizes: ["39", "40", "41", "42", "43", "44", "45"],
-
-    images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200",
-      "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=1200",
-      "https://images.unsplash.com/photo-1552346154-21d32810aba3?w=1200",
-    ],
-
-    tags: ["shoes", "sneakers", "casual", "footwear"],
-  },
-
-  {
-    id: 3,
-    name: "Minimal Backpack",
-    slug: "minimal-backpack",
-    category: "Accessories",
-    price: 59.99,
-    currency: "USD",
-
-    rating: 4.6,
-    reviews: 64,
-
-    stock: 25,
-    sku: "BAG-003",
-
-    description:
-      "A minimal and practical backpack designed for work, travel and everyday use. Its clean design provides plenty of space while maintaining a lightweight profile.",
-
-    shortDescription:
-      "Minimal water-resistant backpack for work, travel and everyday use.",
-
-    features: [
-      "Water-resistant material",
-      "Dedicated laptop compartment",
-      "Multiple storage pockets",
-      "Adjustable shoulder straps",
-      "Lightweight construction",
-      "Minimal modern design",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Gray",
-        value: "#6b7280",
-      },
-      {
-        name: "Green",
-        value: "#166534",
-      },
-    ],
-
-    sizes: ["One Size"],
-
-    images: [
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200",
-      "https://images.unsplash.com/photo-1622560480605-d83c853bc5c3?w=1200",
-      "https://images.unsplash.com/photo-1581605405669-fcdf81165afa?w=1200",
-    ],
-
-    tags: ["backpack", "bag", "travel", "accessories"],
-  },
-
-  {
-    id: 4,
-    name: "Classic Watch",
-    slug: "classic-watch",
-    category: "Accessories",
-    price: 129.99,
-    oldPrice: 159.99,
+    name: "32 Channel 4K Enterprise NVR",
+    slug: "32-channel-4k-enterprise-nvr",
+    category: "NVR",
+    price: 499.99,
+    oldPrice: 579.99,
     currency: "USD",
 
     rating: 4.9,
-    reviews: 156,
+    reviews: 48,
 
-    stock: 9,
-    sku: "WAT-004",
+    stock: 6,
+    sku: "NVR-002",
 
     description:
-      "A timeless classic watch featuring a clean dial, premium materials and an elegant design suitable for both formal and casual occasions.",
+      "A powerful 32-channel enterprise network video recorder designed for large-scale IP surveillance installations. It provides high-capacity recording, advanced camera management and reliable remote monitoring.",
 
     shortDescription:
-      "Elegant classic watch with a timeless design and premium finish.",
+      "32-channel enterprise NVR for large-scale 4K IP surveillance systems.",
 
     features: [
-      "Premium stainless steel case",
-      "Scratch-resistant glass",
-      "Adjustable metal strap",
-      "Water resistant",
-      "Quartz movement",
-      "Minimal classic dial",
+      "32 IP camera channels",
+      "4K ultra HD recording",
+      "H.265+ compression",
+      "Multiple hard drive support",
+      "Advanced camera management",
+      "Remote monitoring and playback",
     ],
 
     colors: [
+      {
+        name: "Black",
+        value: "#111827",
+      },
+    ],
+
+    sizes: ["32 Channel"],
+
+    images: [
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1597852074816-d933c7d2b988?w=1200",
+      "https://images.unsplash.com/photo-1544197150-b99a580bb7a8?w=1200",
+    ],
+
+    tags: ["nvr", "enterprise", "4k", "ip-surveillance", "recorder"],
+  },
+
+  // =========================
+  // NAS SERVER
+  // =========================
+
+  {
+    id: 9,
+    name: "2 Bay Network Attached Storage Server",
+    slug: "2-bay-network-attached-storage-server",
+    category: "NAS Server",
+    price: 289.99,
+    oldPrice: 329.99,
+    currency: "USD",
+
+    rating: 4.7,
+    reviews: 92,
+
+    stock: 11,
+    sku: "NAS-001",
+
+    description:
+      "A compact 2-bay NAS server designed for centralized file storage, backups and private cloud applications. It provides reliable network storage for homes, small businesses and professional users.",
+
+    shortDescription:
+      "Compact 2-bay NAS server for centralized storage, backup and private cloud.",
+
+    features: [
+      "2 drive bays",
+      "Network file sharing",
+      "Automatic backup support",
+      "Private cloud functionality",
+      "RAID storage support",
+      "Gigabit Ethernet connectivity",
+    ],
+
+    colors: [
+      {
+        name: "White",
+        value: "#ffffff",
+      },
+      {
+        name: "Black",
+        value: "#111827",
+      },
+    ],
+
+    sizes: ["2 Bay"],
+
+    images: [
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
+    ],
+
+    tags: ["nas", "nas-server", "storage", "backup", "network-storage"],
+  },
+
+  {
+    id: 10,
+    name: "4 Bay Business NAS Server",
+    slug: "4-bay-business-nas-server",
+    category: "NAS Server",
+    price: 649.99,
+    oldPrice: 749.99,
+    currency: "USD",
+
+    rating: 4.9,
+    reviews: 57,
+
+    stock: 7,
+    sku: "NAS-002",
+
+    description:
+      "A high-performance 4-bay NAS server designed for businesses that require centralized storage, data protection and reliable backup solutions. It provides multiple drive configurations and fast network connectivity.",
+
+    shortDescription:
+      "High-performance 4-bay NAS server for business storage, backup and data protection.",
+
+    features: [
+      "4 drive bays",
+      "RAID storage configurations",
+      "High-speed network connectivity",
+      "Centralized file management",
+      "Automatic backup support",
+      "Private cloud applications",
+    ],
+
+    colors: [
+      {
+        name: "Black",
+        value: "#111827",
+      },
       {
         name: "Silver",
         value: "#d1d5db",
       },
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Gold",
-        value: "#d4a017",
-      },
     ],
 
-    sizes: ["One Size"],
+    sizes: ["4 Bay"],
 
     images: [
-      "https://images.unsplash.com/photo-1523275335684-37898b6baf30?w=1200",
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?w=1200",
-      "https://images.unsplash.com/photo-1523170335258-f5ed11844a49?w=1200",
+      "https://images.unsplash.com/photo-1597872200969-2b65d56bd16b?w=1200",
+      "https://images.unsplash.com/photo-1558494949-ef010cbdcc31?w=1200",
+      "https://images.unsplash.com/photo-1518770660439-4636190af475?w=1200",
     ],
 
-    tags: ["watch", "accessories", "classic", "luxury"],
-  },
-
-  {
-    id: 5,
-    name: "Oversized Hoodie",
-    slug: "oversized-hoodie",
-    category: "Clothing",
-    price: 69.99,
-    currency: "USD",
-
-    rating: 4.8,
-    reviews: 98,
-
-    stock: 21,
-    sku: "HOD-005",
-
-    description:
-      "A comfortable oversized hoodie made from a soft fleece blend. Designed for a relaxed fit and perfect for casual everyday wear.",
-
-    shortDescription:
-      "Soft oversized hoodie with a relaxed fit for everyday comfort.",
-
-    features: [
-      "Soft fleece blend",
-      "Oversized relaxed fit",
-      "Adjustable drawstring hood",
-      "Kangaroo front pocket",
-      "Ribbed cuffs",
-      "Warm and comfortable",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Cream",
-        value: "#f5f5dc",
-      },
-      {
-        name: "Gray",
-        value: "#9ca3af",
-      },
-      {
-        name: "Brown",
-        value: "#78350f",
-      },
-    ],
-
-    sizes: ["S", "M", "L", "XL", "XXL"],
-
-    images: [
-      "https://images.unsplash.com/photo-1556821840-3a63f95609a7?w=1200",
-      "https://images.unsplash.com/photo-1578681994506-b8f463449011?w=1200",
-      "https://images.unsplash.com/photo-1620799140408-edc6dcb6d633?w=1200",
-    ],
-
-    tags: ["hoodie", "clothing", "casual", "streetwear"],
-  },
-
-  {
-    id: 6,
-    name: "Running Shoes",
-    slug: "running-shoes",
-    category: "Shoes",
-    price: 109.99,
-    currency: "USD",
-
-    rating: 4.7,
-    reviews: 112,
-
-    stock: 16,
-    sku: "RUN-006",
-
-    description:
-      "Lightweight running shoes engineered for comfort and everyday performance. The cushioned sole provides excellent support during running, walking and training.",
-
-    shortDescription:
-      "Lightweight running shoes with responsive cushioning and excellent support.",
-
-    features: [
-      "Lightweight mesh upper",
-      "Responsive cushioning",
-      "Breathable construction",
-      "Flexible outsole",
-      "Shock absorption",
-      "Designed for running and training",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "White",
-        value: "#ffffff",
-      },
-      {
-        name: "Blue",
-        value: "#2563eb",
-      },
-      {
-        name: "Red",
-        value: "#dc2626",
-      },
-    ],
-
-    sizes: ["39", "40", "41", "42", "43", "44", "45", "46"],
-
-    images: [
-      "https://images.unsplash.com/photo-1542291026-7eec264c27ff?w=1200",
-      "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=1200",
-      "https://images.unsplash.com/photo-1539185441755-769473a23570?w=1200",
-    ],
-
-    tags: ["running", "shoes", "sports", "training"],
-  },
-
-  {
-    id: 7,
-    name: "Leather Wallet",
-    slug: "leather-wallet",
-    category: "Accessories",
-    price: 44.99,
-    currency: "USD",
-
-    rating: 4.8,
-    reviews: 73,
-
-    stock: 30,
-    sku: "WAL-007",
-
-    description:
-      "A compact leather wallet crafted for everyday use. Its slim profile provides enough space for cards, cash and essential documents without unnecessary bulk.",
-
-    shortDescription:
-      "Slim genuine leather wallet with a practical everyday design.",
-
-    features: [
-      "Genuine leather",
-      "Slim compact profile",
-      "Multiple card slots",
-      "Cash compartment",
-      "Durable stitching",
-      "RFID protection",
-    ],
-
-    colors: [
-      {
-        name: "Black",
-        value: "#111827",
-      },
-      {
-        name: "Brown",
-        value: "#78350f",
-      },
-      {
-        name: "Tan",
-        value: "#a16207",
-      },
-    ],
-
-    sizes: ["One Size"],
-
-    images: [
-      "https://images.unsplash.com/photo-1627123424574-724758594e93?w=1200",
-      "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=1200",
-    ],
-
-    tags: ["wallet", "leather", "accessories", "cards"],
+    tags: ["nas", "nas-server", "business", "storage", "backup", "raid"],
   },
 ];
