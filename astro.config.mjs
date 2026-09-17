@@ -5,7 +5,7 @@ import tailwindcss from '@tailwindcss/vite';
 export default defineConfig({
   output: 'static',
   site: 'https://balkhirihamid.github.io',
-  base: '/astrox',
+  base: '/astrox/',
   vite: {
     plugins: [tailwindcss()]
   },
