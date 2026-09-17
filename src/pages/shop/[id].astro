@@ -32,9 +32,9 @@ const productUrl = `${siteUrl}/shop/${product.id}`;
     <div class="border-b border-gray-100">
       <div class="mx-auto max-w-7xl px-4 py-4 sm:px-6 lg:px-8">
         <nav class="flex items-center gap-2 text-sm text-gray-500">
-          <a href="/" class="transition hover:text-indigo-600"> Home </a>
+          <a href=`${import.meta.env.BASE_URL}` class="transition hover:text-indigo-600"> Home </a>
           <span>/</span>
-          <a href="/shop" class="transition hover:text-indigo-600"> Shop </a>
+          <a href=`${import.meta.env.BASE_URL}shop` class="transition hover:text-indigo-600"> Shop </a>
           <span>/</span>
           <span class="truncate text-gray-900"> {product.name} </span>
         </nav>
